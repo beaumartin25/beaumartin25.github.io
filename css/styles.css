@@ -10944,7 +10944,7 @@ header.masthead {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   
 }
 header.masthead h1, header.masthead .h1 {
