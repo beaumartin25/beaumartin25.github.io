@@ -10943,7 +10943,7 @@ header.masthead {
 	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
   
 }
@@ -10957,6 +10957,7 @@ header.masthead h1, header.masthead .h1 {
     min-height: 40rem;
     padding-top: 4.5rem;
     padding-bottom: 0;
+    background-attachment: fixed; /*will be fixed when big and will be scroll when smaller aspect ratios*/
   }
   header.masthead p {
     font-size: 1.15rem;
