@@ -4,12 +4,14 @@ import { Box, Button, Container, Paper, Typography } from "@mui/material";
 const projectList = [
   {
     name: "Flask Backend",
-    description: "A Flask-based backend API for a drone delivery service.",
+    description:
+      "A Flask-based backend API for a drone ice cream delivery service.",
     link: "https://github.com/beaumartin25/dronecones-api",
   },
   {
     name: "Gas Prices Data Analysis Project",
-    description: "Analyzing trends in gas prices using Python and Pandas.",
+    description:
+      "This project provides a comprehensive analysis of trends in U.S. gasoline prices over three decades, examining the impact of economic factors, oil prices, and global events. We utilize extensive datasets to explore seasonal variations, regional differences, and the influence of crude oil prices on gasoline pricing. Our results offer insights into predictive modeling for future price trends, benefiting economic forecasting and policy-making.",
     link: "https://github.com/beaumartin25/Data_Analysis_Project",
   },
   // Add more projects as needed
@@ -24,7 +26,15 @@ function App() {
       >
         Beau Martin
       </Typography>
-      <Typography variant="h2">Overview</Typography>
+      <Typography variant="h2">About Me</Typography>
+      <Container sx={{ m: 2 }}>
+        <Typography sx={{ fontSize: "1.25rem" }}>
+          Hello, my name is Beau Martin and I am a student at Utah State
+          University. I will be graduating with my degree in computer science in
+          December 2024.
+        </Typography>
+      </Container>
+      <Typography variant="h2">Projects</Typography>
       <Box
         sx={{
           pt: 4,
