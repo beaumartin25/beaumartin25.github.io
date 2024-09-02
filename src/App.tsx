@@ -3,15 +3,15 @@ import { Box, Button, Container, Paper, Typography } from "@mui/material";
 
 const projectList = [
   {
-    name: "Flask Backend",
+    name: "Drone Cones API",
     description:
-      "A Flask-based backend API for a drone ice cream delivery service.",
+      "This project develops a Flask-based backend API for a drone ice cream delivery service, using SQL for data management. It supports creating user accounts, employee drone registration and income, store manager for inventory control, and customer order placement.",
     link: "https://github.com/beaumartin25/dronecones-api",
   },
   {
     name: "Gas Prices Data Analysis Project",
     description:
-      "This project provides a comprehensive analysis of trends in U.S. gasoline prices over three decades, examining the impact of economic factors, oil prices, and global events. We utilize extensive datasets to explore seasonal variations, regional differences, and the influence of crude oil prices on gasoline pricing. Our results offer insights into predictive modeling for future price trends, benefiting economic forecasting and policy-making.",
+      "This project leverages Python with the pandas library to deliver a comprehensive analysis of U.S. gasoline price trends over three decades. It incorporates various data cleaning strategies, comparisons, and visuals to effectively analyze these trends. Additionally, the project includes a predictive modeling component using the scikit-learn library, providing insights into future price trends.",
     link: "https://github.com/beaumartin25/Data_Analysis_Project",
   },
   // Add more projects as needed
