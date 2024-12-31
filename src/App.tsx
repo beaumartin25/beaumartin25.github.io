@@ -9,16 +9,16 @@ const projectList = [
     link: "https://github.com/beaumartin25/dronecones-api",
   },
   {
-    name: "AWS Data Orchestrator",
+    name: "Call of Duty Zombies Quest Guide",
     description:
-      'This project uses python to transfer and process data between Amazon S3 buckets, a DynamoDB database, and an SQS queue. The primary functionality includes creating, updating, and deleting records (or "widgets") based on JSON input data.',
-    link: "https://github.com/beaumartin25/aws_data_orchestrator",
+      "A work-in-progress C# and .NET-based website that catalogs Call of Duty Zombies Quests. It features a React and Material UI frontend for game and map selection, while the backend stores game names, maps, main quests, side quests, and step-by-step details for quest completion.",
+    link: "https://github.com/beaumartin25/CODZ_Quest_Guide",
   },
   {
-    name: "Gas Prices Data Analysis Project",
+    name: "Crowd Evactuaion Cellular Automata",
     description:
-      "This project leverages Python with the pandas library to deliver a comprehensive analysis of U.S. gasoline price trends over three decades. It incorporates various data cleaning strategies, comparisons, and visuals to effectively analyze these trends. Additionally, the project includes a predictive modeling component using the scikit-learn library, providing insights into future price trends.",
-    link: "https://github.com/beaumartin25/Data_Analysis_Project",
+      "Simulated crowd evacuation scenarios using cellular automata integrated with game theory to analyze cooperative and defective strategies. Modeled agent interactions on a grid to study decision-making, behavioral dynamics, and social influence during evacuations, highlighting the intersection of computational modeling and strategic analysis.",
+    link: "https://github.com/beaumartin25/crowd_evacuation_cellular_automata",
   },
   {
     name: "Custom C++ Vector Class with Dynamic Resizing and Iterator Support",
@@ -41,8 +41,11 @@ function App() {
       <Typography variant="h2">About Me</Typography>
       <Container sx={{ m: 2 }}>
         <Typography sx={{ fontSize: "1.25rem" }}>
-          Hi, I&apos;m Beau Martin, a computer science student at Utah State
-          University, set to graduate in December 2024.
+          I am a current Software Developer with a Bachelor&apos;s Degree in
+          Computer Science from Utah State University. Experienced in bulding
+          robust applications using Python, Java, C++, C#, and Typescript.
+          Proficient in designing back-end APIs, managing databases, and
+          front-end development.
         </Typography>
       </Container>
       <Typography variant="h2">Projects</Typography>
